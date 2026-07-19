@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FF6B00,FF8C00,FFAA00&height=280&section=header&text=Tarek%20Rahman&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=30"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B00,50:FF8C00,100:FFAA00&height=150&section=header&text=Tarek%20Rahman&fontSize=70&fontColor=ffffff&fontAlignY=45"/>
 
 <div align="center">
 
