@@ -7,6 +7,7 @@
 
 <br/>
 
+<!-- 1. Train -->
 <img src="./assets/divider_train.svg" width="100%"/>
 
 <br/>
@@ -23,6 +24,7 @@
 
 <br/>
 
+<!-- 2. Gears -->
 <img src="./assets/divider_gears.svg" width="100%"/>
 
 <br/>
@@ -51,7 +53,8 @@ philosophy: >
 
 <br/>
 
-<img src="./assets/divider_pipe.svg" width="100%"/>
+<!-- 3. Airplane A -->
+<img src="./assets/divider_airplane_A.svg" width="100%"/>
 
 <br/>
 
@@ -77,7 +80,8 @@ philosophy: >
 
 <br/>
 
-<img src="./assets/divider_car.svg" width="100%"/>
+<!-- 4. Pipe -->
+<img src="./assets/divider_pipe.svg" width="100%"/>
 
 <br/>
 
@@ -97,7 +101,8 @@ philosophy: >
 
 <br/>
 
-<img src="./assets/divider_gears.svg" width="100%"/>
+<!-- 5. Car -->
+<img src="./assets/divider_car.svg" width="100%"/>
 
 <br/>
 
@@ -131,7 +136,8 @@ philosophy: >
 
 <br/>
 
-<img src="./assets/divider_pipe.svg" width="100%"/>
+<!-- 6. Airplane B -->
+<img src="./assets/divider_airplane_B.svg" width="100%"/>
 
 <br/>
 
@@ -149,7 +155,8 @@ philosophy: >
 
 <br/>
 
-<img src="./assets/divider_train.svg" width="100%"/>
+<!-- 7. Planetary Gears -->
+<img src="./assets/divider_gears_planetary.svg" width="100%"/>
 
 <br/>
 
@@ -167,7 +174,8 @@ philosophy: >
 
 <br/>
 
-<img src="./assets/divider_car.svg" width="100%"/>
+<!-- 8. Airplane C -->
+<img src="./assets/divider_airplane_C.svg" width="100%"/>
 
 <br/>
 
