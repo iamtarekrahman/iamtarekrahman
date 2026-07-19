@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 50" width="800" height="50">
+  <defs>
+    <linearGradient id="pipeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A"/>
+      <stop offset="30%" style="stop-color:#666"/>
+      <stop offset="70%" style="stop-color:#333"/>
+      <stop offset="100%" style="stop-color:#1A1A1A"/>
+    </linearGradient>
+    <filter id="glowPipe">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main pipe -->
+  <rect x="0" y="18" width="800" height="14" fill="url(#pipeGrad)" stroke="#FF6B00" stroke-width="0.8"/>
+
+  <!-- Pipe joints -->
+  <rect x="80" y="15" width="8" height="20" rx="2" fill="#444" stroke="#FF8C00" stroke-width="1"/>
+  <rect x="200" y="15" width="8" height="20" rx="2" fill="#444" stroke="#FF8C00" stroke-width="1"/>
+  <rect x="350" y="15" width="8" height="20" rx="2" fill="#444" stroke="#FF8C00" stroke-width="1"/>
+  <rect x="500" y="15" width="8" height="20" rx="2" fill="#444" stroke="#FF8C00" stroke-width="1"/>
+  <rect x="650" y="15" width="8" height="20" rx="2" fill="#444" stroke="#FF8C00" stroke-width="1"/>
+
+  <!-- Flow particles (animated) -->
+  <circle cx="0" cy="25" r="3" fill="#FF6B00" opacity="0.8" filter="url(#glowPipe)">
+    <animate attributeName="cx" values="0;800" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="0" cy="25" r="2.5" fill="#FFAA00" opacity="0.6" filter="url(#glowPipe)">
+    <animate attributeName="cx" values="0;800" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="0" cy="25" r="3" fill="#FF8C00" opacity="0.7" filter="url(#glowPipe)">
+    <animate attributeName="cx" values="0;800" dur="3s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="0" cy="25" r="2" fill="#FF6B00" opacity="0.5" filter="url(#glowPipe)">
+    <animate attributeName="cx" values="0;800" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="0.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="0" cy="25" r="2.5" fill="#FFAA00" opacity="0.6" filter="url(#glowPipe)">
+    <animate attributeName="cx" values="0;800" dur="3s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="1.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="0" cy="25" r="3" fill="#FF6B00" opacity="0.8" filter="url(#glowPipe)">
+    <animate attributeName="cx" values="0;800" dur="3s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="0.7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Pressure gauge -->
+  <circle cx="425" cy="10" r="8" fill="#1a1a1a" stroke="#FF6B00" stroke-width="1.5"/>
+  <line x1="425" y1="10" x2="425" y2="4" stroke="#FF8C00" stroke-width="1.5">
+    <animateTransform attributeName="transform" type="rotate" values="0 425 10;90 425 10;45 425 10;70 425 10;0 425 10" dur="4s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="425" cy="10" r="1.5" fill="#FF6B00"/>
+
+  <!-- Valve -->
+  <rect x="270" y="8" width="4" height="8" fill="#FF6B00"/>
+  <circle cx="272" cy="6" r="4" fill="none" stroke="#FF8C00" stroke-width="1.5">
+    <animateTransform attributeName="transform" type="rotate" values="0 272 6;360 272 6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

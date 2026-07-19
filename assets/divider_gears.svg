@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 60" width="800" height="60">
+  <defs>
+    <linearGradient id="gearGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A"/>
+      <stop offset="100%" style="stop-color:#2A2A2A"/>
+    </linearGradient>
+    <filter id="glowGear">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Center line -->
+  <line x1="0" y1="30" x2="800" y2="30" stroke="#FF6B00" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Gear 1 (left) -->
+  <g filter="url(#glowGear)">
+    <animateTransform attributeName="transform" type="rotate" from="0 100 30" to="360 100 30" dur="4s" repeatCount="indefinite"/>
+    <path d="M100,10 L104,12 L106,8 L110,10 L108,14 L112,17 L116,15 L118,19 L114,21 L116,25 L120,25 L120,30 L120,35 L116,35 L114,39 L118,41 L116,45 L112,43 L108,46 L110,50 L106,52 L104,48 L100,50 L96,48 L94,52 L90,50 L92,46 L88,43 L84,45 L82,41 L86,39 L84,35 L80,35 L80,30 L80,25 L84,25 L86,21 L82,19 L84,15 L88,17 L92,14 L90,10 L94,8 L96,12 Z" fill="url(#gearGrad)" stroke="#FF6B00" stroke-width="1"/>
+    <circle cx="100" cy="30" r="8" fill="#1a1a1a" stroke="#FF8C00" stroke-width="1"/>
+    <circle cx="100" cy="30" r="3" fill="#FF6B00"/>
+  </g>
+
+  <!-- Gear 2 (center-left, counter-rotating) -->
+  <g filter="url(#glowGear)">
+    <animateTransform attributeName="transform" type="rotate" from="360 250 30" to="0 250 30" dur="3s" repeatCount="indefinite"/>
+    <path d="M250,13 L253,15 L255,11 L258,13 L257,16 L260,18 L263,16 L265,19 L262,21 L263,24 L267,24 L267,28 L267,32 L263,32 L262,35 L265,37 L263,40 L260,38 L257,40 L258,43 L255,45 L253,42 L250,43 L247,42 L245,45 L242,43 L243,40 L240,38 L237,40 L235,37 L238,35 L237,32 L233,32 L233,28 L233,24 L237,24 L238,21 L235,19 L237,16 L240,18 L243,16 L242,13 L245,11 L247,15 Z" fill="url(#gearGrad)" stroke="#FF6B00" stroke-width="1"/>
+    <circle cx="250" cy="28" r="6" fill="#1a1a1a" stroke="#FF8C00" stroke-width="1"/>
+    <circle cx="250" cy="28" r="2.5" fill="#FF6B00"/>
+  </g>
+
+  <!-- Gear 3 (center) -->
+  <g filter="url(#glowGear)">
+    <animateTransform attributeName="transform" type="rotate" from="0 400 30" to="360 400 30" dur="5s" repeatCount="indefinite"/>
+    <path d="M400,8 L404,10 L407,6 L411,9 L409,13 L413,16 L417,13 L419,17 L415,20 L417,24 L422,23 L422,28 L422,32 L417,33 L415,37 L419,39 L417,43 L413,41 L409,44 L411,48 L407,50 L404,47 L400,48 L396,47 L393,50 L389,48 L391,44 L387,41 L383,43 L381,39 L385,37 L383,33 L378,32 L378,28 L378,23 L383,24 L385,20 L381,17 L383,13 L387,16 L391,13 L389,9 L393,6 L396,10 Z" fill="url(#gearGrad)" stroke="#FF6B00" stroke-width="1.2"/>
+    <circle cx="400" cy="28" r="9" fill="#1a1a1a" stroke="#FF8C00" stroke-width="1"/>
+    <circle cx="400" cy="28" r="3.5" fill="#FF6B00"/>
+  </g>
+
+  <!-- Gear 4 (center-right, counter-rotating) -->
+  <g filter="url(#glowGear)">
+    <animateTransform attributeName="transform" type="rotate" from="360 550 30" to="0 550 30" dur="3.5s" repeatCount="indefinite"/>
+    <path d="M550,13 L553,15 L555,11 L558,13 L557,16 L560,18 L563,16 L565,19 L562,21 L563,24 L567,24 L567,28 L567,32 L563,32 L562,35 L565,37 L563,40 L560,38 L557,40 L558,43 L555,45 L553,42 L550,43 L547,42 L545,45 L542,43 L543,40 L540,38 L537,40 L535,37 L538,35 L537,32 L533,32 L533,28 L533,24 L537,24 L538,21 L535,19 L537,16 L540,18 L543,16 L542,13 L545,11 L547,15 Z" fill="url(#gearGrad)" stroke="#FF6B00" stroke-width="1"/>
+    <circle cx="550" cy="28" r="6" fill="#1a1a1a" stroke="#FF8C00" stroke-width="1"/>
+    <circle cx="550" cy="28" r="2.5" fill="#FF6B00"/>
+  </g>
+
+  <!-- Gear 5 (right) -->
+  <g filter="url(#glowGear)">
+    <animateTransform attributeName="transform" type="rotate" from="0 700 30" to="360 700 30" dur="4s" repeatCount="indefinite"/>
+    <path d="M700,10 L704,12 L706,8 L710,10 L708,14 L712,17 L716,15 L718,19 L714,21 L716,25 L720,25 L720,30 L720,35 L716,35 L714,39 L718,41 L716,45 L712,43 L708,46 L710,50 L706,52 L704,48 L700,50 L696,48 L694,52 L690,50 L692,46 L688,43 L684,45 L682,41 L686,39 L684,35 L680,35 L680,30 L680,25 L684,25 L686,21 L682,19 L684,15 L688,17 L692,14 L690,10 L694,8 L696,12 Z" fill="url(#gearGrad)" stroke="#FF6B00" stroke-width="1"/>
+    <circle cx="700" cy="30" r="8" fill="#1a1a1a" stroke="#FF8C00" stroke-width="1"/>
+    <circle cx="700" cy="30" r="3" fill="#FF6B00"/>
+  </g>
+
+  <!-- Sparks -->
+  <circle cx="175" cy="30" r="1.5" fill="#FFAA00">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="475" cy="30" r="1.5" fill="#FFAA00">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="625" cy="30" r="1.5" fill="#FFAA00">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" begin="1.3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

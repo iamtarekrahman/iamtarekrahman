@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" width="800" height="80">
+  <defs>
+    <linearGradient id="trackGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B00;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#FF8C00;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FF6B00;stop-opacity:0.3"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A"/>
+      <stop offset="50%" style="stop-color:#2D2D2D"/>
+      <stop offset="100%" style="stop-color:#1A1A1A"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Rails -->
+  <rect x="0" y="58" width="800" height="3" fill="url(#trackGrad)" filter="url(#glow)"/>
+  <rect x="0" y="66" width="800" height="3" fill="url(#trackGrad)" filter="url(#glow)"/>
+
+  <!-- Rail ties (sleepers) -->
+  <g opacity="0.5">
+    <rect x="20" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="60" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="100" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="140" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="180" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="220" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="260" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="300" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="340" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="380" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="420" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="460" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="500" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="540" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="580" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="620" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="660" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="700" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="740" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+    <rect x="780" y="56" width="4" height="15" rx="1" fill="#FF6B00"/>
+  </g>
+
+  <!-- Train body group (animated) -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-200,0;850,0" dur="6s" repeatCount="indefinite"/>
+
+    <!-- Locomotive body -->
+    <rect x="0" y="25" width="120" height="32" rx="4" fill="url(#bodyGrad)" stroke="#FF6B00" stroke-width="1.5"/>
+
+    <!-- Cab window -->
+    <rect x="85" y="30" width="25" height="15" rx="2" fill="#1a1a1a" stroke="#FF8C00" stroke-width="1"/>
+
+    <!-- Chimney -->
+    <rect x="15" y="15" width="12" height="12" rx="2" fill="#333" stroke="#FF6B00" stroke-width="1"/>
+
+    <!-- Steam puffs -->
+    <circle cx="21" cy="8" r="5" fill="#FF6B00" opacity="0.3">
+      <animate attributeName="r" values="3;7;3" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Front light -->
+    <circle cx="3" cy="40" r="4" fill="#FFAA00" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="0.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Wheels with rotation -->
+    <g>
+      <!-- Wheel 1 -->
+      <circle cx="25" cy="58" r="9" fill="#1a1a1a" stroke="#FF6B00" stroke-width="2"/>
+      <line x1="25" y1="49" x2="25" y2="67" stroke="#FF8C00" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="rotate" from="0 25 58" to="360 25 58" dur="0.5s" repeatCount="indefinite"/>
+      </line>
+      <line x1="16" y1="58" x2="34" y2="58" stroke="#FF8C00" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="rotate" from="0 25 58" to="360 25 58" dur="0.5s" repeatCount="indefinite"/>
+      </line>
+      <circle cx="25" cy="58" r="3" fill="#FF6B00"/>
+
+      <!-- Wheel 2 -->
+      <circle cx="60" cy="58" r="9" fill="#1a1a1a" stroke="#FF6B00" stroke-width="2"/>
+      <line x1="60" y1="49" x2="60" y2="67" stroke="#FF8C00" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="rotate" from="0 60 58" to="360 60 58" dur="0.5s" repeatCount="indefinite"/>
+      </line>
+      <line x1="51" y1="58" x2="69" y2="58" stroke="#FF8C00" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="rotate" from="0 60 58" to="360 60 58" dur="0.5s" repeatCount="indefinite"/>
+      </line>
+      <circle cx="60" cy="58" r="3" fill="#FF6B00"/>
+
+      <!-- Wheel 3 -->
+      <circle cx="95" cy="58" r="9" fill="#1a1a1a" stroke="#FF6B00" stroke-width="2"/>
+      <line x1="95" y1="49" x2="95" y2="67" stroke="#FF8C00" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="rotate" from="0 95 58" to="360 95 58" dur="0.5s" repeatCount="indefinite"/>
+      </line>
+      <line x1="86" y1="58" x2="104" y2="58" stroke="#FF8C00" stroke-width="1.5">
+        <animateTransform attributeName="transform" type="rotate" from="0 95 58" to="360 95 58" dur="0.5s" repeatCount="indefinite"/>
+      </line>
+      <circle cx="95" cy="58" r="3" fill="#FF6B00"/>
+    </g>
+
+    <!-- Connecting rod -->
+    <line x1="25" y1="58" x2="95" y2="58" stroke="#FF8C00" stroke-width="2" opacity="0.6"/>
+
+    <!-- Cargo car -->
+    <rect x="130" y="30" width="80" height="27" rx="3" fill="#2D2D2D" stroke="#FF6B00" stroke-width="1"/>
+    <text x="155" y="48" font-family="monospace" font-size="8" fill="#FF8C00">MECH</text>
+
+    <!-- Cargo wheels -->
+    <circle cx="150" cy="58" r="7" fill="#1a1a1a" stroke="#FF6B00" stroke-width="1.5"/>
+    <circle cx="150" cy="58" r="2" fill="#FF6B00"/>
+    <line x1="150" y1="51" x2="150" y2="65" stroke="#FF8C00" stroke-width="1">
+      <animateTransform attributeName="transform" type="rotate" from="0 150 58" to="360 150 58" dur="0.5s" repeatCount="indefinite"/>
+    </line>
+
+    <circle cx="190" cy="58" r="7" fill="#1a1a1a" stroke="#FF6B00" stroke-width="1.5"/>
+    <circle cx="190" cy="58" r="2" fill="#FF6B00"/>
+    <line x1="190" y1="51" x2="190" y2="65" stroke="#FF8C00" stroke-width="1">
+      <animateTransform attributeName="transform" type="rotate" from="0 190 58" to="360 190 58" dur="0.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+</svg>
