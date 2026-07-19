@@ -1,8 +1,8 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FF6B00,FF8C00,FFAA00&height=200&section=header&text=Tarek%20Rahman&fontSize=70&fontColor=ffffff&animation=twinkling&fontAlignY=40"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=FF6B00,FF8C00,FFAA00&height=280&section=header&text=Tarek%20Rahman&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=30"/>
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF8C00&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=120&lines=Assistant+Mechanical+Engineer;Turbomachinery+%26+Renewable+Energy;Standards+Compliance+%7C+CAD+%7C+Infrastructure;Building+Systems+That+Last" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF6B00&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=120&lines=Assistant+Mechanical+Engineer;Turbomachinery+%26+Renewable+Energy;Standards+Compliance+%7C+CAD+%7C+Infrastructure;Building+Systems+That+Last" alt="Typing SVG" /></a>
 
 </div>
 
