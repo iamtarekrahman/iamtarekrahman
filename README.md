@@ -31,11 +31,12 @@
 
 ```yaml
 name: Tarek Rahman
+education: BSc in Mechanical Engineering (CGPA: 3.90/4.00) | IUBAT
+
+current_company: Hunan Construction Engineering Group (HCEG)
 role: Assistant Mechanical Engineer
-company: Hunan Construction Engineering Group (HCEG)
 project: Rajshahi WASA Surface Water Treatment Plant
-location: Dhaka, Bangladesh
-education: BSc in Mechanical Engineering (CGPA: 3.90/4.00)
+location: Rajshahi
 
 focus_areas:
   - Submittal Review & Standards Compliance (BS, ISO, IEC)
