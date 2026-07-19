@@ -1,10 +1,5 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B00,50:FF8C00,100:FFAA00&height=150&section=header&text=Tarek%20Rahman&fontSize=70&fontColor=ffffff&fontAlignY=45"/>
-
-<div align="center">
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF6B00&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=120&lines=Assistant+Mechanical+Engineer;Turbomachinery+%26+Renewable+Energy;Standards+Compliance+%7C+CAD+%7C+Infrastructure;Building+Systems+That+Last" alt="Typing SVG" /></a>
-
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B00,50:FF8C00,100:FFAA00&height=150&section=header&text=Tarek%20Rahman&fontSize=70&fontColor=ffffff&fontAlignY=45&animation=twinkling"/>
+<p align="center"><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF6B00&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=120&lines=Assistant+Mechanical+Engineer;Turbomachinery+%26+Renewable+Energy;Standards+Compliance+%7C+CAD+%7C+Infrastructure;Building+Systems+That+Last" alt="Typing SVG" /></a></p>
 
 <div align="center">
   <img src="https://media.giphy.com/media/l0HlNQ03J5JR3cpqM/giphy.gif" width="400" alt="Mechanical Engineering Animation"/>
