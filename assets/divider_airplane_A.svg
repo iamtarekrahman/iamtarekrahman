@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80" width="800" height="80">
+  <defs>
+    <linearGradient id="skyGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B00;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#FF6B00;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#FF6B00;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glowPlane1">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Runway line -->
+  <line x1="0" y1="70" x2="300" y2="70" stroke="#FF6B00" stroke-width="2" opacity="0.5"/>
+  <line x1="0" y1="70" x2="300" y2="70" stroke="#FF8C00" stroke-width="1" stroke-dasharray="10 8" opacity="0.7"/>
+
+  <!-- Takeoff trail (curved path showing trajectory) -->
+  <path d="M 150,70 Q 350,65 500,40 T 800,5" fill="none" stroke="url(#skyGrad1)" stroke-width="2" stroke-dasharray="4 4">
+    <animate attributeName="stroke-dashoffset" values="0;-16" dur="1s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Airplane (moves along takeoff path) -->
+  <g filter="url(#glowPlane1)">
+    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto" path="M 50,70 Q 350,65 500,40 T 850,5"/>
+
+    <!-- Fuselage -->
+    <path d="M-20,0 L15,-1 L20,0 L15,1 L-20,0 Z" fill="#2D2D2D" stroke="#FF6B00" stroke-width="1"/>
+    <!-- Wings -->
+    <path d="M-5,-1 L0,-8 L5,-8 L2,-1 Z" fill="#3A3A3A" stroke="#FF8C00" stroke-width="0.8"/>
+    <path d="M-5,1 L0,8 L5,8 L2,1 Z" fill="#3A3A3A" stroke="#FF8C00" stroke-width="0.8"/>
+    <!-- Tail -->
+    <path d="M-20,0 L-22,-4 L-17,-3 Z" fill="#444" stroke="#FF6B00" stroke-width="0.8"/>
+    <path d="M-20,0 L-22,4 L-17,3 Z" fill="#444" stroke="#FF6B00" stroke-width="0.8"/>
+    <!-- Engine glow -->
+    <circle cx="-22" cy="0" r="2" fill="#FF6B00" opacity="0.8">
+      <animate attributeName="r" values="1.5;3;1.5" dur="0.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Cockpit -->
+    <ellipse cx="14" cy="0" rx="4" ry="2" fill="#1a1a1a" stroke="#FFAA00" stroke-width="0.5"/>
+  </g>
+
+  <!-- Runway lights -->
+  <circle cx="20" cy="72" r="2" fill="#FFAA00">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="60" cy="72" r="2" fill="#FFAA00">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" begin="0.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="72" r="2" fill="#FFAA00">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="140" cy="72" r="2" fill="#FFAA00">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="180" cy="72" r="2" fill="#FFAA00">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
