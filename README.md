@@ -88,15 +88,7 @@ philosophy: >
 ## 🎓 Certifications
 
 <div align="center">
-
-| Badge | Certification | Issuer |
-|:---:|:---|:---|
-| 🏅 | **CSWA** — Certified SOLIDWORKS Associate | Dassault Systèmes |
-| 🏅 | **Autodesk Certified Professional** — AutoCAD | Autodesk |
-| 📜 | Renewable Energy Specialization | University of Colorado Boulder |
-| 📜 | Wind Energy | DTU (Technical University of Denmark) |
-| 📜 | Risk Management & Industrial Safety | Khalifa University |
-
+<img src="./assets/section_certifications.svg" width="100%"/>
 </div>
 
 <br/>
@@ -109,29 +101,7 @@ philosophy: >
 ## 🏗️ Featured Project
 
 <div align="center">
-
-### Tesla Turbine — Undergraduate Thesis
-
-*Designed, fabricated, and tested a bladeless boundary-layer turbine prototype*
-
-```
-┌─────────────────────────────────────────────────────┐
-│  ◉ TESLA TURBINE PERFORMANCE ANALYSIS              │
-│─────────────────────────────────────────────────────│
-│  Parameters Studied:                                │
-│    ├── Inlet Velocity Variation                     │
-│    ├── Disk Gap Optimization                        │
-│    └── Disk Thickness Effects                       │
-│                                                     │
-│  Outputs Measured:                                  │
-│    ├── Torque                                       │
-│    ├── Power                                        │
-│    └── Efficiency                                   │
-│                                                     │
-│  Status: ████████████████████████████ COMPLETE      │
-└─────────────────────────────────────────────────────┘
-```
-
+<img src="./assets/section_project.svg" width="100%"/>
 </div>
 
 <br/>
@@ -144,13 +114,7 @@ philosophy: >
 ## 🏛️ Professional Affiliations
 
 <div align="center">
-
-| | Organization | Role |
-|:---:|:---|:---|
-| 🔧 | **ASME** — American Society of Mechanical Engineers | Member |
-| 🔧 | **IMechE** — Institution of Mechanical Engineers | Member |
-| 📝 | **NARP** — Nayem's Association for Research & Publication | Researcher |
-
+<img src="./assets/section_affiliations.svg" width="100%"/>
 </div>
 
 <br/>
@@ -182,19 +146,7 @@ philosophy: >
 ## 🤝 Let's Collaborate
 
 <div align="center">
-
-```
-┌─────────────────────────────────────────────────────┐
-│  OPEN FOR COLLABORATION ON:                         │
-│                                                     │
-│  ◉ Renewable Energy Projects                       │
-│  ◉ Turbomachinery Research                         │
-│  ◉ CAD/CAE Simulation Work                         │
-│  ◉ Industrial Safety & Compliance                  │
-│  ◉ Open Source Engineering Tools                   │
-└─────────────────────────────────────────────────────┘
-```
-
+<img src="./assets/section_collaborate.svg" width="100%"/>
 </div>
 
 <br/>

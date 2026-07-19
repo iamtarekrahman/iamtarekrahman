@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" width="700" height="280">
+  <defs>
+    <filter id="glowCert">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="scanLine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B00;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#FF8C00;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#FF6B00;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background panel -->
+  <rect x="2" y="2" width="696" height="276" rx="8" fill="#0d1117" stroke="#FF6B00" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner accents -->
+  <path d="M2,20 L2,2 L20,2" fill="none" stroke="#FF8C00" stroke-width="3" filter="url(#glowCert)"/>
+  <path d="M680,2 L698,2 L698,20" fill="none" stroke="#FF8C00" stroke-width="3" filter="url(#glowCert)"/>
+  <path d="M2,258 L2,278 L20,278" fill="none" stroke="#FF8C00" stroke-width="3" filter="url(#glowCert)"/>
+  <path d="M680,278 L698,278 L698,258" fill="none" stroke="#FF8C00" stroke-width="3" filter="url(#glowCert)"/>
+
+  <!-- Scanning line -->
+  <rect x="10" y="0" width="680" height="30" fill="url(#scanLine)">
+    <animate attributeName="y" values="0;260;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Header -->
+  <text x="350" y="35" font-family="monospace" font-size="14" fill="#FF8C00" text-anchor="middle" font-weight="bold" filter="url(#glowCert)">
+    ─── CERTIFICATIONS DATABASE ───
+  </text>
+
+  <!-- Cert 1: CSWA -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>
+    <!-- Medal icon -->
+    <circle cx="45" cy="72" r="10" fill="none" stroke="#FFAA00" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="45" y="77" font-family="monospace" font-size="10" fill="#FFAA00" text-anchor="middle">★</text>
+    <!-- Status indicator -->
+    <circle cx="25" cy="72" r="3" fill="#00FF88">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Text -->
+    <text x="70" y="68" font-family="monospace" font-size="13" fill="#ffffff" font-weight="bold">CSWA — Certified SOLIDWORKS Associate</text>
+    <text x="70" y="84" font-family="monospace" font-size="11" fill="#FF8C00">Dassault Systèmes</text>
+  </g>
+
+  <!-- Cert 2: AutoCAD -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+    <circle cx="45" cy="120" r="10" fill="none" stroke="#FFAA00" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="45" y="125" font-family="monospace" font-size="10" fill="#FFAA00" text-anchor="middle">★</text>
+    <circle cx="25" cy="120" r="3" fill="#00FF88">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="70" y="116" font-family="monospace" font-size="13" fill="#ffffff" font-weight="bold">Autodesk Certified Professional — AutoCAD</text>
+    <text x="70" y="132" font-family="monospace" font-size="11" fill="#FF8C00">Autodesk</text>
+  </g>
+
+  <!-- Cert 3: Renewable Energy -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.5s" fill="freeze"/>
+    <circle cx="45" cy="168" r="10" fill="none" stroke="#FF8C00" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="45" y="173" font-family="monospace" font-size="10" fill="#FF8C00" text-anchor="middle">◆</text>
+    <circle cx="25" cy="168" r="3" fill="#00FF88">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="70" y="164" font-family="monospace" font-size="13" fill="#ffffff" font-weight="bold">Renewable Energy Specialization</text>
+    <text x="70" y="180" font-family="monospace" font-size="11" fill="#FF8C00">University of Colorado Boulder</text>
+  </g>
+
+  <!-- Cert 4: Wind Energy -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2s" fill="freeze"/>
+    <circle cx="45" cy="216" r="10" fill="none" stroke="#FF8C00" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" begin="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <text x="45" y="221" font-family="monospace" font-size="10" fill="#FF8C00" text-anchor="middle">◆</text>
+    <circle cx="25" cy="216" r="3" fill="#00FF88">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="70" y="212" font-family="monospace" font-size="13" fill="#ffffff" font-weight="bold">Wind Energy</text>
+    <text x="70" y="228" font-family="monospace" font-size="11" fill="#FF8C00">DTU (Technical University of Denmark)</text>
+  </g>
+
+  <!-- Cert 5: Risk Management -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze"/>
+    <circle cx="45" cy="260" r="10" fill="none" stroke="#FF8C00" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="45" y="265" font-family="monospace" font-size="10" fill="#FF8C00" text-anchor="middle">◆</text>
+    <circle cx="25" cy="260" r="3" fill="#00FF88">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="70" y="256" font-family="monospace" font-size="13" fill="#ffffff" font-weight="bold">Risk Management &amp; Industrial Safety</text>
+    <text x="70" y="272" font-family="monospace" font-size="11" fill="#FF8C00">Khalifa University</text>
+  </g>
+
+  <!-- Data stream accents on right side -->
+  <text x="660" y="70" font-family="monospace" font-size="9" fill="#FF6B00" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" repeatCount="indefinite"/>
+    01
+  </text>
+  <text x="660" y="120" font-family="monospace" font-size="9" fill="#FF6B00" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+    10
+  </text>
+  <text x="660" y="170" font-family="monospace" font-size="9" fill="#FF6B00" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" begin="1s" repeatCount="indefinite"/>
+    11
+  </text>
+  <text x="660" y="220" font-family="monospace" font-size="9" fill="#FF6B00" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+    01
+  </text>
+</svg>

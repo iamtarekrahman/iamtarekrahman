@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" width="700" height="200">
+  <defs>
+    <filter id="glowAff">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background panel -->
+  <rect x="2" y="2" width="696" height="196" rx="8" fill="#0d1117" stroke="#FF6B00" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Corner brackets -->
+  <path d="M2,20 L2,2 L20,2" fill="none" stroke="#FF8C00" stroke-width="3" filter="url(#glowAff)"/>
+  <path d="M680,2 L698,2 L698,20" fill="none" stroke="#FF8C00" stroke-width="3" filter="url(#glowAff)"/>
+  <path d="M2,178 L2,198 L20,198" fill="none" stroke="#FF8C00" stroke-width="3" filter="url(#glowAff)"/>
+  <path d="M680,198 L698,198 L698,178" fill="none" stroke="#FF8C00" stroke-width="3" filter="url(#glowAff)"/>
+
+  <!-- Header -->
+  <text x="350" y="32" font-family="monospace" font-size="14" fill="#FF8C00" text-anchor="middle" font-weight="bold" filter="url(#glowAff)">
+    ─── PROFESSIONAL NETWORK ───
+  </text>
+
+  <!-- Connection line (animated pulse between entries) -->
+  <line x1="45" y1="55" x2="45" y2="180" stroke="#FF6B00" stroke-width="1" stroke-dasharray="3 3">
+    <animate attributeName="stroke-dashoffset" values="0;-12" dur="2s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- ASME -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.5s" fill="freeze"/>
+    <!-- Rotating gear icon -->
+    <g transform="translate(45, 70)" filter="url(#glowAff)">
+      <animateTransform attributeName="transform" type="rotate" from="0 45 70" to="360 45 70" dur="6s" repeatCount="indefinite"/>
+      <circle cx="0" cy="0" r="10" fill="none" stroke="#FF6B00" stroke-width="1.5" stroke-dasharray="3 2"/>
+      <circle cx="0" cy="0" r="4" fill="#1a1a1a" stroke="#FF8C00" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.5" fill="#FF6B00"/>
+    </g>
+    <!-- Status dot -->
+    <circle cx="25" cy="70" r="3" fill="#00FF88">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Text -->
+    <text x="70" y="66" font-family="monospace" font-size="13" fill="#ffffff" font-weight="bold">ASME</text>
+    <text x="130" y="66" font-family="monospace" font-size="11" fill="#aaaaaa">— American Society of Mechanical Engineers</text>
+    <text x="70" y="82" font-family="monospace" font-size="11" fill="#FF8C00">Member</text>
+  </g>
+
+  <!-- IMechE -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1s" fill="freeze"/>
+    <g transform="translate(45, 120)" filter="url(#glowAff)">
+      <animateTransform attributeName="transform" type="rotate" from="0 45 120" to="-360 45 120" dur="8s" repeatCount="indefinite"/>
+      <circle cx="0" cy="0" r="10" fill="none" stroke="#FF6B00" stroke-width="1.5" stroke-dasharray="3 2"/>
+      <circle cx="0" cy="0" r="4" fill="#1a1a1a" stroke="#FF8C00" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.5" fill="#FF6B00"/>
+    </g>
+    <circle cx="25" cy="120" r="3" fill="#00FF88">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="70" y="116" font-family="monospace" font-size="13" fill="#ffffff" font-weight="bold">IMechE</text>
+    <text x="148" y="116" font-family="monospace" font-size="11" fill="#aaaaaa">— Institution of Mechanical Engineers</text>
+    <text x="70" y="132" font-family="monospace" font-size="11" fill="#FF8C00">Member</text>
+  </g>
+
+  <!-- NARP -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.5s" fill="freeze"/>
+    <g transform="translate(45, 170)" filter="url(#glowAff)">
+      <animateTransform attributeName="transform" type="rotate" from="0 45 170" to="360 45 170" dur="7s" repeatCount="indefinite"/>
+      <circle cx="0" cy="0" r="10" fill="none" stroke="#FF6B00" stroke-width="1.5" stroke-dasharray="3 2"/>
+      <circle cx="0" cy="0" r="4" fill="#1a1a1a" stroke="#FF8C00" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.5" fill="#FF6B00"/>
+    </g>
+    <circle cx="25" cy="170" r="3" fill="#00FF88">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="70" y="166" font-family="monospace" font-size="13" fill="#ffffff" font-weight="bold">NARP</text>
+    <text x="125" y="166" font-family="monospace" font-size="11" fill="#aaaaaa">— Nayem's Association for Research &amp; Publication</text>
+    <text x="70" y="182" font-family="monospace" font-size="11" fill="#FF8C00">Researcher</text>
+  </g>
+
+  <!-- Data transfer indicators (right side) -->
+  <g transform="translate(660, 60)">
+    <rect x="0" y="0" width="3" height="8" fill="#FF6B00">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="12" width="3" height="8" fill="#FF8C00">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="0.8s" begin="0.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="24" width="3" height="8" fill="#FFAA00">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="0.8s" begin="0.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="36" width="3" height="8" fill="#FF6B00">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="0.8s" begin="0.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="48" width="3" height="8" fill="#FF8C00">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="0.8s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="60" width="3" height="8" fill="#FFAA00">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="0.8s" begin="0.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
