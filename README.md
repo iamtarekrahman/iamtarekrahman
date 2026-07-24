@@ -31,25 +31,9 @@
 
 ## 🔩 About Me
 
-```yaml
-name: Tarek Rahman
-education: BSc in Mechanical Engineering (CGPA: 3.90/4.00) | IUBAT
-
-current_company: Hunan Construction Engineering Group (HCEG)
-role: Assistant Mechanical Engineer
-project: Rajshahi WASA Surface Water Treatment Plant
-location: Rajshahi
-
-focus_areas:
-  - Submittal Review & Standards Compliance (BS, ISO, IEC)
-  - Pumps, Valves, Chlorination Systems & Cranes
-  - Vendor Coordination & Technical Documentation
-  - Turbomachinery & Renewable Energy
-
-philosophy: >
-  Every compliance comment and every experimental result
-  is a small investigation, not a checkbox to clear.
-```
+<div align="center">
+<img src="./assets/section_about.svg" width="100%"/>
+</div>
 
 <br/>
 
