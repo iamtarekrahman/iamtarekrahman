@@ -1,542 +1,378 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="860" viewBox="0 0 860 860" font-family="'Courier New',Courier,monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="900" viewBox="0 0 880 900" font-family="'Courier New',Courier,monospace">
 <defs><style>
-.sl{animation:scan 3s linear infinite;opacity:.13}
-.fl{animation:flame .4s ease-in-out infinite;transform-origin:50% 0}
-.rk{animation:rkt 6s linear infinite}
-@keyframes scan{0%{transform:translateY(0)}100%{transform:translateY(420px)}}
-@keyframes flame{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.5)}}
-@keyframes rkt{0%{transform:translateY(180px)}100%{transform:translateY(-80px)}}
+.sl{animation:scan 4s linear infinite;opacity:.07}
+.fl{animation:flame .35s ease-in-out infinite;transform-origin:0 0}
+.rk{animation:bob 3s ease-in-out infinite}
+@keyframes scan{0%{transform:translateY(0)}100%{transform:translateY(400px)}}
+@keyframes flame{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.55)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
 </style></defs>
-<rect width="860" height="860" fill="#0d1117"/>
-<rect x="8" y="8" width="844" height="472" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-<rect x="8" y="8" width="844" height="34" rx="10" fill="#21262d"/>
-<rect x="8" y="30" width="844" height="12" fill="#21262d"/>
-<circle cx="28" cy="25" r="6" fill="#ff5f57"/>
-<circle cx="48" cy="25" r="6" fill="#febc2e"/>
-<circle cx="68" cy="25" r="6" fill="#28c840"/>
-<text x="430" y="30" fill="#8b949e" font-size="11" text-anchor="middle">tarek@devs ~ $ ./profile.sh --live</text>
-<rect x="752" y="13" width="92" height="20" rx="3" fill="#0d2010"/>
-<circle cx="763" cy="23" r="4" fill="#FF6B00"><animate attributeName="opacity" values="1;.2;1" dur="1.5s" repeatCount="indefinite"/></circle>
-<text x="773" y="28" fill="#FF6B00" font-size="10" font-weight="bold">SCANNING</text>
-<line x1="432" y1="42" x2="432" y2="472" stroke="#30363d" stroke-width="1"/>
-<text x="216" y="57" fill="#FF8C00" font-size="10" text-anchor="middle" letter-spacing="4">VISUAL.MAP</text>
-<line x1="18" y1="61" x2="424" y2="61" stroke="#30363d" stroke-width=".5"/>
-<text x="18" y="68.0" fill="#0e4429" font-size="5" xml:space="preserve">.....................&apos;.....&apos;&apos;.&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;.&apos;&apos;&apos;&apos;&apos;...&apos;........................</text>
-<text x="18" y="74.8" fill="#0e4429" font-size="5" xml:space="preserve">.....................&apos;&apos;....&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;...&apos;&apos;&apos;.&apos;.&apos;..................</text>
-<text x="18" y="81.6" fill="#0e4429" font-size="5" xml:space="preserve">......................&apos;.&apos;&apos;&apos;.&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;...&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;&apos;...................
-</text>
-<text x="18" y="88.4" fill="#0e4429" font-size="5" xml:space="preserve">....................'..''''.''''''''.''.'''''''''''''''......'..................</text>
-<text x="18" y="95.2" fill="#0e4429" font-size="5" xml:space="preserve">..................'..''''''..'''...           ..''''''''........................</text>
-<text x="18" y="102.0" fill="#0e4429" font-size="5" xml:space="preserve">................''...'.''''''..                .   '''''.'''''..................</text>
-<text x="18" y="108.8" fill="#0e4429" font-size="5" xml:space="preserve">...............''...'.''''..               ....  .  ``'''..'''..................</text>
-<text x="18" y="115.6" fill="#0e4429" font-size="5" xml:space="preserve">..........'.....''''''''''              ...'..''''..'''..'''''''................</text>
-<text x="18" y="122.4" fill="#006d32" font-size="5" xml:space="preserve">...........'.'''.'''''''.        .    .  ...''... .''... .''''..''''............</text>
-<text x="18" y="129.2" fill="#006d32" font-size="5" xml:space="preserve">.........'..''..''''''''.      .`'............'`^":^.     .'.''''''''...........</text>
-<text x="18" y="136.0" fill="#006d32" font-size="5" xml:space="preserve">..........'..'.'''''''''    '^:::"":II:,^`^":,I&lt;-][]-I'   .'''''''''............</text>
-<text x="18" y="142.8" fill="#006d32" font-size="5" xml:space="preserve">...........''''''''''''.  .`:l!i&gt;~-}1)()){)//ftfrnrxj|~^   '''''''''''.'........</text>
-<text x="18" y="149.6" fill="#26a641" font-size="5" xml:space="preserve">.......'..'''''''''''''.  `:l!&gt;&lt;~-}(\tfrxxuvvzYYYYzvxt1&lt;^. .'''''''''.''........</text>
-<text x="18" y="156.4" fill="#26a641" font-size="5" xml:space="preserve">..........'''''''''''''. .^;li&gt;&lt;_]{(/frvcxczXJLQLCYcvj|-l^ .''''''''''''........</text>
-<text x="18" y="163.2" fill="#26a641" font-size="5" xml:space="preserve">......''.''''''''''''''' .^;!i&gt;&lt;+-[)__xvccvuXYYJUUYXvx/}i^.'''''''''''''........</text>
-<text x="18" y="170.0" fill="#26a641" font-size="5" xml:space="preserve">.''..''''''''''''''''''' .,!!!li&lt;-{\rnczXzvvYJLCJXvuunr\&lt;"''''''''''''''........</text>
-<text x="18" y="176.8" fill="#26a641" font-size="5" xml:space="preserve">.....'''''''''''''''''''. l!Il!Ii+](xcYCCJUJOZm0Yzunxjrj~'.'''''''''''''........</text>
-<text x="18" y="183.6" fill="#26a641" font-size="5" xml:space="preserve">.....'''''''''''''''''';^.i!l'     `:~|uUQCLn/-;'^^"&lt;(|f~.''''''''''''''........</text>
-<text x="18" y="190.4" fill="#26a641" font-size="5" xml:space="preserve">....'.'..'''''''''''''':i^&gt;!,:;l&lt;_{}&lt;:`&gt;/rz[",;i~}[?-&lt;)t+?~'''''''''''''''......</text>
-<text x="18" y="197.2" fill="#26a641" font-size="5" xml:space="preserve">.......'''''''''''''''';&gt;IiII"'^_^~v~&gt;:!|UUt(-&gt;:^!{I~)\t-/\''''''''''''..........</text>
-<text x="18" y="204.0" fill="#39d353" font-size="5" xml:space="preserve">.....'''''''''''''''''';"Ii!!!!!-[)1[l,l)Yv/)|][(|[[})\/?v+'''''''''''''.'''.....</text>
-<text x="18" y="210.8" fill="#39d353" font-size="5" xml:space="preserve">.'.....'''''''''''''''',l"i!&gt;-1||(){?&gt;!i|CYnxuxxvvnjff\\+r:'''''''''''''''......</text>
-<text x="18" y="217.6" fill="#39d353" font-size="5" xml:space="preserve">...'''''''''''''''''''':!`lli_)tfft{_ll+tXvuczCJUJJJXx/|&gt;/^'''''''''''''........</text>
-<text x="18" y="224.4" fill="#39d353" font-size="5" xml:space="preserve">.....'''''''''''''''''';i`:;i_1jrjf[I!_)nLYcrXQOO00Czf\[+|"''''''''''''''.......
-</text>
-<text x="18" y="231.2" fill="#39d353" font-size="5" xml:space="preserve">.'...''''''''''''''''''''',Il~}\rur+&gt;[-/zwZLJuL0ZOLXn\\i{\`''''''''''''''.......
-</text>
-<text x="18" y="238.0" fill="#39d353" font-size="5" xml:space="preserve">.'....''''''''''''''''''''^;Ii?1/t{-&lt;!Ii}fr))zJJLLYvr(];''''''''''''''''..'.....
-</text>
-<text x="18" y="244.8" fill="#39d353" font-size="5" xml:space="preserve">....'.''''''''''''''''''''`,,I+]+:`^"`::-i~+[1/cXUzn/}-"''''''''''''''''''......
-</text>
-<text x="18" y="251.6" fill="#39d353" font-size="5" xml:space="preserve">....'''..'''''''''''''''''',:I&lt;-l::`I!l+{)\t|~&gt;!{vvf?_&gt;''''''''''''''....''.....
-</text>
-<text x="18" y="258.4" fill="#39d353" font-size="5" xml:space="preserve">.'...''..'''''''''''''''''''",l~_&gt;+I,;?)|))}?[)?\cx}[&gt;''''''''''''''''''''''....
-</text>
-<text x="18" y="265.2" fill="#39d353" font-size="5" xml:space="preserve">.......'''''''''''''''''''''.",;!i_&lt;&gt;&gt;~?{\/fnuu)\f1[!'''''''''''''''''.''.......
-</text>
-<text x="18" y="272.0" fill="#39d353" font-size="5" xml:space="preserve">.........'''''''''''''''''''"''`"l&lt;?]]&lt;!!~rXYXj1---:'''''''''''''''''''''.......
-</text>
-<text x="18" y="278.8" fill="#39d353" font-size="5" xml:space="preserve">.......''''''''''''''''''''.],'  ^;&lt;_+]{(\tnz\}iiI"-?'''''''''''''''''.''.......
-</text>
-<text x="18" y="285.6" fill="#26a641" font-size="5" xml:space="preserve">......'..'..'''''''''''''. '(:"^  .^:I[(|1[]-I,''&lt;]-Y'.'''''''''''''''''.'......
-</text>
-<text x="18" y="292.4" fill="#26a641" font-size="5" xml:space="preserve">..........'''''''''''''.   `)?,,,^   .,:""^`..'![{{bQ^  .'''''''''''''''........</text>
-<text x="18" y="299.2" fill="#26a641" font-size="5" xml:space="preserve">..........'''''''''.       .1\/I;;:"`'..'''^;-}1)|kpC". ..  .'''''''..'.........
-</text>
-<text x="18" y="306.0" fill="#26a641" font-size="5" xml:space="preserve">.........'''.'..           .[fxzr&gt;!ll!!&gt;~-]{))|(0ahb(^' .'. ... .....'..........
-</text>
-<text x="18" y="312.8" fill="#26a641" font-size="5" xml:space="preserve">............         ...   .`\XJQZC]-??[}1|\/|Jooohp&gt;^'..''' ...................
-</text>
-<text x="18" y="319.6" fill="#26a641" font-size="5" xml:space="preserve">.......       ......'''..  .'-jUmddkm()((\/|Ya***hkc^^'..''''...................
-</text>
-<text x="18" y="326.4" fill="#006d32" font-size="5" xml:space="preserve">..        ........ '``'.....'ltzJwkkhoJrr\Jh**#*hhq:'``'..'``'..'''''....... ...
-</text>
-<text x="18" y="333.2" fill="#006d32" font-size="5" xml:space="preserve">.     ............'```'''...':jUULwpt^l~__i[q#*hoaQ`'``'''''``....'''''.........
-</text>
-<text x="18" y="340.0" fill="#006d32" font-size="5" xml:space="preserve">.. ...........'''.  .''.'....`tCCJL;,^I,"&lt;}~.?aaoor'`````'``'..''.'''''''''.....
-</text>
-<text x="18" y="346.8" fill="#006d32" font-size="5" xml:space="preserve">...........'''''.....'''''...'&lt;LJC[&gt;I:l!;_'&lt;v_+Qoa&gt;``^`````'.'''''''''''''''''.'
-</text>
-<text x="18" y="353.6" fill="#006d32" font-size="5" xml:space="preserve"> .........'''''''..''''''''...:xmbOr[&gt;._~],OwOk0rY```````````''.''''''''''''''.'
-</text>
-<text x="18" y="360.4" fill="#006d32" font-size="5" xml:space="preserve"> .'...'''''''''. ''`'''''''..'`uXkbwj}`&gt;":jwwdkdp_'`^````````'`'..''''`'````''.'
-</text>
-<text x="18" y="367.2" fill="#006d32" font-size="5" xml:space="preserve"> .'..'''''''''''..''`'''''''..'"xdkbri^'1}"Lpbdkv:'^^^`````''''''''''````````'''
-</text>
-<text x="18" y="374.0" fill="#0e4429" font-size="5" xml:space="preserve"> .''''''''''''''' '`'`''''''..'`1mhk1;`&gt;)|.{wddh{``^^^```'''''`''''``````````.`.
-</text>
-<text x="18" y="380.8" fill="#0e4429" font-size="5" xml:space="preserve">...'..'''''''''''. ''`'''''''.'`?Jhdl:&lt;+;:IlJddd&gt;'`^^`````'''`'``````^``````'.'.
-</text>
-<text x="18" y="387.6" fill="#0e4429" font-size="5" xml:space="preserve"> ..' .''''''''''''..'```'''''..'"nbL!++'l:?iiwqL``^^^`````''`''`````````^``'.''.
-</text>
-<text x="18" y="394.4" fill="#0e4429" font-size="5" xml:space="preserve"> ..'..''''''''''''' '``````''..'`(d)~!'iI&lt;],;Cp|'`^^^````````'````````````'..'..
-</text>
-<text x="18" y="401.2" fill="#0e4429" font-size="5" xml:space="preserve"> ...' .''''..''''`'' ```````'..'`_p?^^&gt;;]{:"Icw!`^^^^^`````^'^```````````'. ....
-</text>
-<text x="18" y="408.0" fill="#0e4429" font-size="5" xml:space="preserve">....' ..'''...''''``'.``````''..';OII;:[~::&lt;irc'`^^^^``````'`````^^``''`''. '...
-</text>
-<text x="18" y="414.8" fill="#0e4429" font-size="5" xml:space="preserve">.. ... ..'....'''''`'.'``````''.'`vil~?l";__[()'`^^^```````````````''''''. ....
-</text>
-<text x="18" y="421.6" fill="#0e4429" font-size="5" xml:space="preserve">...  .  .......'''''''.``````''''`,&lt;+&lt;I"l?[]^ii'^^^^``````'````````'..''.  ...
-</text>
-<text x="18" y="428.4" fill="#0e4429" font-size="5" xml:space="preserve">.....    ........''''`'.`````'''.``&gt;I^,&lt;~]~^I"^``````````'````````'.....   . ...
-</text>
-<text x="18" y="435.2" fill="#0e4429" font-size="5" xml:space="preserve">         ........'''''''.`````'''````;~+_:`I,'.```````````''``''''.  ..    ..'..
-</text>
-<text x="18" y="442.0" fill="#0e4429" font-size="5" xml:space="preserve">  ...     .........''''`''````''''`';l+&gt;`^I"_.'````````''.'''''........    .....
-</text>
-<text x="18" y="448.8" fill="#0e4429" font-size="5" xml:space="preserve">.  ...     ........'''''' '````'''`'Ii,',I;}^ `````````'''''''''.....       ...
-</text>
-<text x="18" y="455.6" fill="#0e4429" font-size="5" xml:space="preserve">....        . ......'''''' ````'''`'"''I"&gt;{` .````````'''''''''....         ....
-</text>
-<text x="18" y="462.4" fill="#0e4429" font-size="5" xml:space="preserve"> .....           ....'''''' '``''''`.`;,_[`' '```````'''..'''''....           ..</text>
-<text x="646" y="57" fill="#FF8C00" font-size="10" text-anchor="middle" letter-spacing="4">SYSTEM.INFO</text>
-<line x1="440" y1="61" x2="844" y2="61" stroke="#30363d" stroke-width=".5"/>
-<text x="444" y="80" font-size="10" fill="#FF8C00" font-weight="bold">tarek@devs ───────────────────────────────</text>
-<text x="444" y="104" font-size="10"><tspan fill="#FF8C00">Name</tspan><tspan fill="#30363d"> ·························· </tspan><tspan fill="#e6edf3">Tarek Rahman</tspan></text>
-<text x="444" y="128" font-size="10"><tspan fill="#FF8C00">Role</tspan><tspan fill="#30363d"> ·························· </tspan><tspan fill="#e6edf3">Asst. Mechanical Engineer</tspan></text>
-<text x="444" y="152" font-size="10"><tspan fill="#FF8C00">Company</tspan><tspan fill="#30363d"> ···················· </tspan><tspan fill="#e6edf3">HCEG</tspan></text>
-<text x="444" y="176" font-size="10"><tspan fill="#FF8C00">Project</tspan><tspan fill="#30363d"> ···················· </tspan><tspan fill="#e6edf3">Rajshahi WASA SWTP</tspan></text>
-<text x="444" y="200" font-size="10"><tspan fill="#FF8C00">Location</tspan><tspan fill="#30363d"> ·················· </tspan><tspan fill="#e6edf3">Rajshahi, Bangladesh</tspan></text>
-<text x="444" y="224" font-size="10"><tspan fill="#FF8C00">Education</tspan><tspan fill="#30363d"> ················· </tspan><tspan fill="#e6edf3">BSc ME · CGPA 3.90/4.00</tspan></text>
-<text x="444" y="248" font-size="10" fill="#FF8C00" font-weight="bold">─ Focus Areas ──────────────────────────</text>
-<text x="444" y="272" font-size="10"><tspan fill="#FF8C00">Standards</tspan><tspan fill="#30363d"> ················· </tspan><tspan fill="#e6edf3">BS · ISO · IEC</tspan></text>
-<text x="444" y="296" font-size="10"><tspan fill="#FF8C00">Systems</tspan><tspan fill="#30363d"> ···················· </tspan><tspan fill="#e6edf3">Pumps · Valves · Cranes</tspan></text>
-<text x="444" y="320" font-size="10"><tspan fill="#FF8C00">Docs</tspan><tspan fill="#30363d"> ·························· </tspan><tspan fill="#e6edf3">Submittals · Vendor Coord</tspan></text>
-<text x="444" y="344" font-size="10"><tspan fill="#FF8C00">Domain</tspan><tspan fill="#30363d"> ······················ </tspan><tspan fill="#e6edf3">Turbomachinery · Renewables</tspan></text>
-<text x="444" y="368" font-size="10" fill="#FF8C00" font-weight="bold">─ Contact ──────────────────────────────</text>
-<text x="444" y="392" font-size="10"><tspan fill="#FF8C00">Portfolio</tspan><tspan fill="#30363d"> ················· </tspan><tspan fill="#e6edf3">tarekrahman.vercel.app</tspan></text>
-<text x="444" y="416" font-size="10"><tspan fill="#FF8C00">LinkedIn</tspan><tspan fill="#30363d"> ·················· </tspan><tspan fill="#e6edf3">iamtarekrahman</tspan></text>
-<text x="444" y="440" font-size="10"><tspan fill="#FF8C00">Email</tspan><tspan fill="#30363d"> ························ </tspan><tspan fill="#e6edf3">tarek737519@gmail.com</tspan></text>
-<text x="444" y="464" font-size="10" fill="#FF8C00" font-weight="bold">─ Live Stats ───────────────────────────</text>
-<rect x="444" y="478" width="8" height="8" fill="#FF6B00" rx="1"/>
-<text x="458" y="488" font-size="9" fill="#8b949e">See live GitHub stats badges below in README ↓</text>
-<rect class="sl" x="8" y="42" width="844" height="18" fill="#FF6B00"/>
-<rect x="8" y="498" width="844" height="160" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-<text x="40" y="520" fill="#8b949e" font-size="9">Jan</text>
-<text x="108" y="520" fill="#8b949e" font-size="9">Feb</text>
-<text x="176" y="520" fill="#8b949e" font-size="9">Mar</text>
-<text x="244" y="520" fill="#8b949e" font-size="9">Apr</text>
-<text x="312" y="520" fill="#8b949e" font-size="9">May</text>
-<text x="380" y="520" fill="#8b949e" font-size="9">Jun</text>
-<text x="448" y="520" fill="#8b949e" font-size="9">Jul</text>
-<text x="516" y="520" fill="#8b949e" font-size="9">Aug</text>
-<text x="584" y="520" fill="#8b949e" font-size="9">Sep</text>
-<text x="652" y="520" fill="#8b949e" font-size="9">Oct</text>
-<text x="720" y="520" fill="#8b949e" font-size="9">Nov</text>
-<text x="788" y="520" fill="#8b949e" font-size="9">Dec</text>
-<text x="20" y="542" fill="#8b949e" font-size="8" text-anchor="end">Mon</text>
-<text x="20" y="570" fill="#8b949e" font-size="8" text-anchor="end">Wed</text>
-<text x="20" y="598" fill="#8b949e" font-size="8" text-anchor="end">Fri</text>
-<rect x="44" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="44" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="44" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="44" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="44" y="584" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="44" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="44" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="59" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="59" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="59" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="59" y="570" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="59" y="584" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="59" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="59" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="74" y="528" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="2.1s" repeatCount="indefinite"/></rect>
-<rect x="74" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="74" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="74" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="74" y="584" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="74" y="598" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="74" y="612" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="89" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="89" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="89" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="89" y="570" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="89" y="584" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="89" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="89" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="104" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="104" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="104" y="556" width="11" height="11" rx="2" fill="#26a641"><animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/></rect>
-<rect x="104" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="104" y="584" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="104" y="598" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="104" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="119" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="119" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="119" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="119" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="119" y="584" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="119" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="119" y="612" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="134" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="134" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="134" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="134" y="570" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="134" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="134" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="134" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="149" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="149" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="149" y="556" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/></rect>
-<rect x="149" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="149" y="584" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="149" y="598" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="149" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="164" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="164" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="164" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="164" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="164" y="584" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="164" y="598" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="164" y="612" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="179" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="179" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="179" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="179" y="570" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="179" y="584" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="179" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="179" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="194" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="194" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="194" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="194" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="194" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="194" y="598" width="11" height="11" rx="2" fill="#26a641"><animate attributeName="opacity" values="1;0.4;1" dur="1.7s" repeatCount="indefinite"/></rect>
-<rect x="194" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="209" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="209" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="209" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="209" y="570" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="209" y="584" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="209" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="209" y="612" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="224" y="528" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="224" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="224" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="224" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="224" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="224" y="598" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="224" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="239" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="239" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="239" y="556" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="239" y="570" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="2.3s" repeatCount="indefinite"/></rect>
-<rect x="239" y="584" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="239" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="239" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="254" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="254" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="254" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="254" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="254" y="584" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="254" y="598" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="254" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="269" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="269" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="269" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="269" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="269" y="584" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="269" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="269" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="284" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="284" y="542" width="11" height="11" rx="2" fill="#26a641"><animate attributeName="opacity" values="1;0.4;1" dur="2.0s" repeatCount="indefinite"/></rect>
-<rect x="284" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="284" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="284" y="584" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="284" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="284" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="299" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="299" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="299" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="299" y="570" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="299" y="584" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="299" y="598" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="1.6s" repeatCount="indefinite"/></rect>
-<rect x="299" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="314" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="314" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="314" y="556" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="314" y="570" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="314" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="314" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="314" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="329" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="329" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="329" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="329" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="329" y="584" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="329" y="598" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="329" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="344" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="344" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="344" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="344" y="570" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="344" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="344" y="598" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="344" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="359" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="359" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="359" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="359" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="359" y="584" width="11" height="11" rx="2" fill="#26a641"><animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/></rect>
-<rect x="359" y="598" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="359" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="374" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="374" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="374" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="374" y="570" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="374" y="584" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="374" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="374" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="389" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="389" y="542" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="1.9s" repeatCount="indefinite"/></rect>
-<rect x="389" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="389" y="570" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="389" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="389" y="598" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="389" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="404" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="404" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="404" y="556" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="404" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="404" y="584" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="404" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="404" y="612" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="419" y="528" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="419" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="419" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="419" y="570" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="419" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="419" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="419" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="434" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="434" y="542" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="434" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="434" y="570" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite"/></rect>
-<rect x="434" y="584" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="434" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="434" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="449" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="449" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="449" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="449" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="449" y="584" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="449" y="598" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="449" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="464" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="464" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="464" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="464" y="570" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="464" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="464" y="598" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/></rect>
-<rect x="464" y="612" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="479" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="479" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="479" y="556" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="479" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="479" y="584" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="479" y="598" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="479" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="494" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="494" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="494" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="494" y="570" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="494" y="584" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="494" y="598" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="494" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="509" y="528" width="11" height="11" rx="2" fill="#26a641"><animate attributeName="opacity" values="1;0.4;1" dur="2.6s" repeatCount="indefinite"/></rect>
-<rect x="509" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="509" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="509" y="570" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="509" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="509" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="509" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="524" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="524" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="524" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="524" y="570" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="524" y="584" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="524" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="524" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="539" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="539" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="539" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="539" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="539" y="584" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="539" y="598" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="539" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="554" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="554" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="554" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="554" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="554" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="554" y="598" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/></rect>
-<rect x="554" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="569" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="569" y="542" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="569" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="569" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="569" y="584" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="569" y="598" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="569" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="584" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="584" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="584" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="584" y="570" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="584" y="584" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="584" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="584" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="599" y="528" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="599" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="599" y="556" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="2.0s" repeatCount="indefinite"/></rect>
-<rect x="599" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="599" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="599" y="598" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="599" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="614" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="614" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="614" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="614" y="570" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="614" y="584" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="614" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="614" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="629" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="629" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="629" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="629" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="629" y="584" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="629" y="598" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="629" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="644" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="644" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="644" y="556" width="11" height="11" rx="2" fill="#26a641"><animate attributeName="opacity" values="1;0.4;1" dur="2.3s" repeatCount="indefinite"/></rect>
-<rect x="644" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="644" y="584" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="644" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="644" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="659" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="659" y="542" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="659" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="659" y="570" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="659" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="659" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="659" y="612" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="674" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="674" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="674" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="674" y="570" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="674" y="584" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="674" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="674" y="612" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="689" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="689" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="689" y="556" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="1.7s" repeatCount="indefinite"/></rect>
-<rect x="689" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="689" y="584" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="689" y="598" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="689" y="612" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="704" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="704" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="704" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="704" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="704" y="584" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="704" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="704" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="719" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="719" y="542" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="719" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="719" y="570" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="719" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="719" y="598" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="2.1s" repeatCount="indefinite"/></rect>
-<rect x="719" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="734" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="734" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="734" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="734" y="570" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="734" y="584" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="734" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="734" y="612" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="749" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="749" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="749" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="749" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="749" y="584" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="749" y="598" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="749" y="612" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="764" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="764" y="542" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="764" y="556" width="11" height="11" rx="2" fill="#26a641"><animate attributeName="opacity" values="1;0.4;1" dur="1.9s" repeatCount="indefinite"/></rect>
-<rect x="764" y="570" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="764" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="764" y="598" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="764" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="779" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="779" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="779" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="779" y="570" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="779" y="584" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="779" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="779" y="612" width="11" height="11" rx="2" fill="#39d353"/>
-<rect x="794" y="528" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="794" y="542" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/></rect>
-<rect x="794" y="556" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="794" y="570" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="794" y="584" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="794" y="598" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="794" y="612" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="809" y="528" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="809" y="542" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="809" y="556" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="809" y="570" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="809" y="584" width="11" height="11" rx="2" fill="#26a641"/>
-<rect x="809" y="598" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="809" y="612" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="824" y="528" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="824" y="542" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="824" y="556" width="11" height="11" rx="2" fill="#161b22"/>
-<rect x="824" y="570" width="11" height="11" rx="2" fill="#0e4429"/>
-<rect x="824" y="584" width="11" height="11" rx="2" fill="#006d32"/>
-<rect x="824" y="598" width="11" height="11" rx="2" fill="#39d353"><animate attributeName="opacity" values="1;0.4;1" dur="2.0s" repeatCount="indefinite"/></rect>
-<rect x="824" y="612" width="11" height="11" rx="2" fill="#26a641"/>
-<g class="rk" transform="translate(430,730)">
-<circle cx="-80" cy="-30" r="1.5" fill="white" opacity="0.5"/>
-<circle cx="90" cy="-60" r="1" fill="white" opacity="0.4"/>
-<circle cx="-140" cy="15" r="1" fill="white" opacity="0.5"/>
-<circle cx="160" cy="40" r="1.5" fill="white" opacity="0.3"/>
-<circle cx="40" cy="-90" r="1" fill="white" opacity="0.6"/>
-<circle cx="-50" cy="50" r="1" fill="white" opacity="0.35"/>
-<polygon points="0,-35 -12,12 12,12" fill="white"/>
-<rect x="-12" y="12" width="24" height="28" rx="3" fill="#e6edf3"/>
-<circle cx="0" cy="24" r="6" fill="#0d1117" stroke="#FF6B00" stroke-width="1.5"/>
-<polygon points="-12,35 -20,50 -12,44" fill="#FF8C00"/>
-<polygon points="12,35 20,50 12,44" fill="#FF8C00"/>
-<ellipse class="fl" cx="0" cy="44" rx="6" ry="14" fill="#FF6B00" opacity="0.9"/>
-<ellipse class="fl" cx="0" cy="47" rx="3.5" ry="9" fill="#FFAA00" opacity="0.8"/>
+<rect width="880" height="900" fill="#0d1117"/>
+<rect x="14" y="14" width="852" height="480" rx="12" fill="none" stroke="#FF6B00" stroke-width="4" opacity="0.18"/>
+<rect x="14" y="14" width="852" height="480" rx="12" fill="#0a0d13" stroke="#FF6B00" stroke-width="1.2"/>
+<line x1="14" y1="50" x2="866" y2="50" stroke="#FF6B00" stroke-width="0.6" opacity="0.5"/>
+<circle cx="36" cy="32" r="5.5" fill="#ff5f57"/>
+<circle cx="56" cy="32" r="5.5" fill="#febc2e"/>
+<circle cx="76" cy="32" r="5.5" fill="#28c840"/>
+<text x="440" y="36" fill="#8b949e" font-size="12" text-anchor="middle">tarek@devs ~ $ ./profile.sh --live</text>
+<circle cx="796" cy="32" r="3.5" fill="#FF6B00"><animate attributeName="opacity" values="1;.15;1" dur="1.2s" repeatCount="indefinite"/></circle>
+<text x="806" y="36" fill="#FF6B00" font-size="9" font-weight="bold" letter-spacing="1">SCANNING</text>
+<text x="30" y="70" fill="#FF8C00" font-size="9" letter-spacing="3" opacity="0.9">VISUAL.MAP</text>
+<rect x="28" y="78" width="392" height="400" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+<text x="36" y="91.0" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.....................&#x27;.....&#x27;&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;...&#x27;........................</text>
+<text x="36" y="97.5" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.....................&#x27;&#x27;....&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;...&#x27;&#x27;&#x27;.&#x27;.&#x27;..................</text>
+<text x="36" y="104.1" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">......................&#x27;.&#x27;&#x27;&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;...&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;...................</text>
+<text x="36" y="110.7" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">....................&#x27;..&#x27;&#x27;&#x27;&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;......&#x27;..................</text>
+<text x="36" y="117.2" fill="#006d32" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">..................&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;..&#x27;&#x27;&#x27;...           ..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;........................</text>
+<text x="36" y="123.8" fill="#006d32" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">................&#x27;&#x27;...&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;..                .   &#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;..................</text>
+<text x="36" y="130.3" fill="#006d32" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">...............&#x27;&#x27;...&#x27;.&#x27;&#x27;&#x27;&#x27;..               ....  .  ``&#x27;&#x27;&#x27;..&#x27;&#x27;&#x27;..................</text>
+<text x="36" y="136.8" fill="#006d32" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">..........&#x27;.....&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;              ...&#x27;..&#x27;&#x27;&#x27;&#x27;..&#x27;&#x27;&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;................</text>
+<text x="36" y="143.4" fill="#006d32" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">...........&#x27;.&#x27;&#x27;&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.        .    .  ...&#x27;&#x27;... .&#x27;&#x27;... .&#x27;&#x27;&#x27;&#x27;..&#x27;&#x27;&#x27;&#x27;............</text>
+<text x="36" y="149.9" fill="#006d32" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.........&#x27;..&#x27;&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.      .`&#x27;............&#x27;`^&quot;:^.     .&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;...........</text>
+<text x="36" y="156.5" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">..........&#x27;..&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;    &#x27;^:::&quot;&quot;:II:,^`^&quot;:,I&lt;-][]-I&#x27;   .&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;............</text>
+<text x="36" y="163.1" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">...........&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.  .`:l!i&gt;~-}1)()){)//ftfrnrxj|~^   &#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;........</text>
+<text x="36" y="169.6" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.......&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.  `:l!&gt;&lt;~-}(\tfrxxuvvzYYYYzvxt1&lt;^. .&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;&#x27;........</text>
+<text x="36" y="176.1" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">..........&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;. .^;li&gt;&lt;_]{(/frvcxczXJLQLCYcvj|-l^ .&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;........</text>
+<text x="36" y="182.7" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">......&#x27;&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27; .^;!i&gt;&lt;+-[)__xvccvuXYYJUUYXvx/}i^.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;........</text>
+<text x="36" y="189.2" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.&#x27;&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27; .,!!!li&lt;-{\rnczXzvvYJLCJXvuunr\&lt;&quot;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;........</text>
+<text x="36" y="195.8" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.....&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;. l!Il!Ii+](xcYCCJUJOZm0Yzunxjrj~&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;........</text>
+<text x="36" y="202.3" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.....&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;;^.i!l&#x27;     `:~|uUQCLn/-;&#x27;^^&quot;&lt;(|f~.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;........</text>
+<text x="36" y="208.9" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">....&#x27;.&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;:i^&gt;!,:;l&lt;_{}&lt;:`&gt;/rz[&quot;,;i~}[?-&lt;)t+?~&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;......</text>
+<text x="36" y="215.4" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.......&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;;&gt;IiII&quot;&#x27;^_^~v~&gt;:!|UUt(-&gt;:^!{I~)\t-/\&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.........</text>
+<text x="36" y="222.0" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.....&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;;&quot;Ii!!!!!-[)1[l,l)Yv/)|][(|[[})\/?v+&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;&#x27;&#x27;....</text>
+<text x="36" y="228.5" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.&#x27;.....&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;,l&quot;i!&gt;-1||(){?&gt;!i|CYnxuxxvvnjff\\+r:&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;......</text>
+<text x="36" y="235.1" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">...&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;:!`lli_)tfft{_ll+tXvuczCJUJJJXx/|&gt;/^&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;........</text>
+<text x="36" y="241.7" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.....&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;;i`:;i_1jrjf[I!_)nLYcrXQOO00Czf\[+|&quot;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.......</text>
+<text x="36" y="248.2" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.&#x27;...&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;,Il~}\rur+&gt;[-/zwZLJuL0ZOLXn\\i{\`&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.......</text>
+<text x="36" y="254.8" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.&#x27;....&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;^;Ii?1/t{-&lt;!Ii}fr))zJJLLYvr(];&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;..&#x27;.....</text>
+<text x="36" y="261.3" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">....&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;`,,I+]+:`^&quot;`::-i~+[1/cXUzn/}-&quot;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;......</text>
+<text x="36" y="267.9" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">....&#x27;&#x27;&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;,:I&lt;-l::`I!l+{)\t|~&gt;!{vvf?_&gt;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;....&#x27;&#x27;.....</text>
+<text x="36" y="274.4" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.&#x27;...&#x27;&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&quot;,l~_&gt;+I,;?)|))}?[)?\cx}[&gt;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;....</text>
+<text x="36" y="280.9" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.......&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.&quot;,;!i_&lt;&gt;&gt;~?{\/fnuu)\f1[!&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;&#x27;.......</text>
+<text x="36" y="287.5" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.........&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&quot;&#x27;&#x27;`&quot;l&lt;?]]&lt;!!~rXYXj1---:&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.......</text>
+<text x="36" y="294.0" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.......&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.],&#x27;  ^;&lt;_+]{(\tnz\}iiI&quot;-?&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;&#x27;.......</text>
+<text x="36" y="300.6" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">......&#x27;..&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;. &#x27;(:&quot;^  .^:I[(|1[]-I,&#x27;&#x27;&lt;]-Y&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;......</text>
+<text x="36" y="307.1" fill="#39d353" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">..........&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.   `)?,,,^   .,:&quot;&quot;^`..&#x27;![{{bQ^  .&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;........</text>
+<text x="36" y="313.7" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">..........&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.       .1\/I;;:&quot;`&#x27;..&#x27;&#x27;&#x27;^;-}1)|kpC&quot;. ..  .&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;..&#x27;.........</text>
+<text x="36" y="320.2" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.........&#x27;&#x27;&#x27;.&#x27;..           .[fxzr&gt;!ll!!&gt;~-]{))|(0ahb(^&#x27; .&#x27;. ... .....&#x27;..........</text>
+<text x="36" y="326.8" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">............         ...   .`\XJQZC]-??[}1|\/|Jooohp&gt;^&#x27;..&#x27;&#x27;&#x27; ...................</text>
+<text x="36" y="333.4" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.......       ......&#x27;&#x27;&#x27;..  .&#x27;-jUmddkm()((\/|Ya***hkc^^&#x27;..&#x27;&#x27;&#x27;&#x27;...................</text>
+<text x="36" y="339.9" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">..        ........ &#x27;``&#x27;.....&#x27;ltzJwkkhoJrr\Jh**#*hhq:&#x27;``&#x27;..&#x27;``&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;....... ...</text>
+<text x="36" y="346.4" fill="#26a641" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.     ............&#x27;```&#x27;&#x27;&#x27;...&#x27;:jUULwpt^l~__i[q#*hoaQ`&#x27;``&#x27;&#x27;&#x27;&#x27;&#x27;``....&#x27;&#x27;&#x27;&#x27;&#x27;.........</text>
+<text x="36" y="353.0" fill="#006d32" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.. ...........&#x27;&#x27;&#x27;.  .&#x27;&#x27;.&#x27;....`tCCJL;,^I,&quot;&lt;}~.?aaoor&#x27;`````&#x27;``&#x27;..&#x27;&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.....</text>
+<text x="36" y="359.6" fill="#006d32" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">...........&#x27;&#x27;&#x27;&#x27;&#x27;.....&#x27;&#x27;&#x27;&#x27;&#x27;...&#x27;&lt;LJC[&gt;I:l!;_&#x27;&lt;v_+Qoa&gt;``^`````&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;</text>
+<text x="36" y="366.1" fill="#006d32" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .........&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;...:xmbOr[&gt;._~],OwOk0rY```````````&#x27;&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;</text>
+<text x="36" y="372.6" fill="#006d32" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .&#x27;...&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;. &#x27;&#x27;`&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;..&#x27;`uXkbwj}`&gt;&quot;:jwwdkdp_&#x27;`^````````&#x27;`&#x27;..&#x27;&#x27;&#x27;&#x27;`&#x27;````&#x27;&#x27;.&#x27;</text>
+<text x="36" y="379.2" fill="#006d32" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;..&#x27;&#x27;`&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;..&#x27;&quot;xdkbri^&#x27;1}&quot;Lpbdkv:&#x27;^^^`````&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;````````&#x27;&#x27;&#x27;</text>
+<text x="36" y="385.8" fill="#006d32" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27; &#x27;`&#x27;`&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;..&#x27;`1mhk1;`&gt;)|.{wddh{``^^^```&#x27;&#x27;&#x27;&#x27;&#x27;`&#x27;&#x27;&#x27;&#x27;``````````.`.</text>
+<text x="36" y="392.3" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">...&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;. &#x27;&#x27;`&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.&#x27;`?Jhdl:&lt;+;:IlJddd&gt;&#x27;`^^`````&#x27;&#x27;&#x27;`&#x27;``````^``````&#x27;.&#x27;.</text>
+<text x="36" y="398.8" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> ..&#x27; .&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;..&#x27;```&#x27;&#x27;&#x27;&#x27;&#x27;..&#x27;&quot;nbL!++&#x27;l:?iiwqL``^^^`````&#x27;&#x27;`&#x27;&#x27;`````````^``&#x27;.&#x27;&#x27;.</text>
+<text x="36" y="405.4" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> ..&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27; &#x27;``````&#x27;&#x27;..&#x27;`(d)~!&#x27;iI&lt;],;Cp|&#x27;`^^^````````&#x27;````````````&#x27;..&#x27;..</text>
+<text x="36" y="411.9" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> ...&#x27; .&#x27;&#x27;&#x27;&#x27;..&#x27;&#x27;&#x27;&#x27;`&#x27;&#x27; ```````&#x27;..&#x27;`_p?^^&gt;;]{:&quot;Icw!`^^^^^`````^&#x27;^```````````&#x27;. ....</text>
+<text x="36" y="418.5" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">....&#x27; ..&#x27;&#x27;&#x27;...&#x27;&#x27;&#x27;&#x27;``&#x27;.``````&#x27;&#x27;..&#x27;;OII;:[~::&lt;irc&#x27;`^^^^``````&#x27;`````^^``&#x27;&#x27;`&#x27;&#x27;. &#x27;...</text>
+<text x="36" y="425.1" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.. ... ..&#x27;....&#x27;&#x27;&#x27;&#x27;&#x27;`&#x27;.&#x27;``````&#x27;&#x27;.&#x27;`vil~?l&quot;;__[()&#x27;`^^^```````````````&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;. ....</text>
+<text x="36" y="431.6" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">...  .  .......&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.``````&#x27;&#x27;&#x27;&#x27;`,&lt;+&lt;I&quot;l?[]^ii&#x27;^^^^``````&#x27;````````&#x27;..&#x27;&#x27;.  ...</text>
+<text x="36" y="438.1" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.....    ........&#x27;&#x27;&#x27;&#x27;`&#x27;.`````&#x27;&#x27;&#x27;.``&gt;I^,&lt;~]~^I&quot;^``````````&#x27;````````&#x27;.....   . ...</text>
+<text x="36" y="444.7" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">         ........&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.`````&#x27;&#x27;&#x27;````;~+_:`I,&#x27;.```````````&#x27;&#x27;``&#x27;&#x27;&#x27;&#x27;.  ..    ..&#x27;..</text>
+<text x="36" y="451.2" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">  ...     .........&#x27;&#x27;&#x27;&#x27;`&#x27;&#x27;````&#x27;&#x27;&#x27;&#x27;`&#x27;;l+&gt;`^I&quot;_.&#x27;````````&#x27;&#x27;.&#x27;&#x27;&#x27;&#x27;&#x27;........    .....</text>
+<text x="36" y="457.8" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">.  ...     ........&#x27;&#x27;&#x27;&#x27;&#x27;&#x27; &#x27;````&#x27;&#x27;&#x27;`&#x27;Ii,&#x27;,I;}^ `````````&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;.....       ...</text>
+<text x="36" y="464.3" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve">....        . ......&#x27;&#x27;&#x27;&#x27;&#x27;&#x27; ````&#x27;&#x27;&#x27;`&#x27;&quot;&#x27;&#x27;I&quot;&gt;{` .````````&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;&#x27;....         ....</text>
+<text x="36" y="470.9" fill="#0e4429" font-size="6.2" textLength="376" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> .....           ....&#x27;&#x27;&#x27;&#x27;&#x27;&#x27; &#x27;``&#x27;&#x27;&#x27;&#x27;`.`;,_[`&#x27; &#x27;```````&#x27;&#x27;&#x27;..&#x27;&#x27;&#x27;&#x27;&#x27;....           ..</text>
+<text x="436" y="70" fill="#FF8C00" font-size="9" letter-spacing="3" opacity="0.9">SYSTEM.INFO</text>
+<line x1="436" y1="78" x2="852" y2="78" stroke="#30363d" stroke-width="0.6"/>
+<text x="440" y="102" font-size="13" fill="#FF6B00" font-weight="bold">tarek@devs</text>
+<line x1="527" y1="98" x2="852" y2="98" stroke="#FF6B00" stroke-width="1.2"/>
+<text x="440" y="127" font-size="11"><tspan fill="#FF8C00" font-weight="bold">Name</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="484" y="127" font-size="11" fill="#3d444d">··········································</text>
+<text x="852" y="127" font-size="11" fill="#e6edf3" text-anchor="end">Tarek Rahman</text>
+<text x="440" y="148" font-size="11"><tspan fill="#FF8C00" font-weight="bold">Role</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="484" y="148" font-size="11" fill="#3d444d">·····························</text>
+<text x="852" y="148" font-size="11" fill="#e6edf3" text-anchor="end">Asst. Mechanical Engineer</text>
+<text x="440" y="169" font-size="11"><tspan fill="#FF8C00" font-weight="bold">Company</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="503" y="169" font-size="11" fill="#3d444d">···············································</text>
+<text x="852" y="169" font-size="11" fill="#e6edf3" text-anchor="end">HCEG</text>
+<text x="440" y="190" font-size="11"><tspan fill="#FF8C00" font-weight="bold">Project</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="503" y="190" font-size="11" fill="#3d444d">·································</text>
+<text x="852" y="190" font-size="11" fill="#e6edf3" text-anchor="end">Rajshahi WASA SWTP</text>
+<text x="440" y="211" font-size="11"><tspan fill="#FF8C00" font-weight="bold">Location</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="510" y="211" font-size="11" fill="#3d444d">······························</text>
+<text x="852" y="211" font-size="11" fill="#e6edf3" text-anchor="end">Rajshahi, Bangladesh</text>
+<text x="440" y="232" font-size="11"><tspan fill="#FF8C00" font-weight="bold">Education</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="517" y="232" font-size="11" fill="#3d444d">··························</text>
+<text x="852" y="232" font-size="11" fill="#e6edf3" text-anchor="end">BSc ME · CGPA 3.90/4.00</text>
+<text x="440" y="257" font-size="11" fill="#FF8C00" font-weight="bold">─ Focus Areas</text>
+<line x1="538" y1="253.5" x2="852" y2="253.5" stroke="#FF8C00" stroke-width="1" opacity="0.7"/>
+<text x="440" y="279" font-size="11"><tspan fill="#FF8C00" font-weight="bold">Standards</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="517" y="279" font-size="11" fill="#3d444d">···································</text>
+<text x="852" y="279" font-size="11" fill="#e6edf3" text-anchor="end">BS · ISO · IEC</text>
+<text x="440" y="300" font-size="11"><tspan fill="#FF8C00" font-weight="bold">Systems</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="503" y="300" font-size="11" fill="#3d444d">····························</text>
+<text x="852" y="300" font-size="11" fill="#e6edf3" text-anchor="end">Pumps · Valves · Cranes</text>
+<text x="440" y="321" font-size="11"><tspan fill="#FF8C00" font-weight="bold">Docs</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="484" y="321" font-size="11" fill="#3d444d">·····························</text>
+<text x="852" y="321" font-size="11" fill="#e6edf3" text-anchor="end">Submittals · Vendor Coord</text>
+<text x="440" y="342" font-size="11"><tspan fill="#FF8C00" font-weight="bold">Domain</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="497" y="342" font-size="11" fill="#3d444d">·························</text>
+<text x="852" y="342" font-size="11" fill="#e6edf3" text-anchor="end">Turbomachinery · Renewables</text>
+<text x="440" y="367" font-size="11" fill="#FF8C00" font-weight="bold">─ Contact</text>
+<line x1="512" y1="363.5" x2="852" y2="363.5" stroke="#FF8C00" stroke-width="1" opacity="0.7"/>
+<text x="440" y="389" font-size="11"><tspan fill="#FF8C00" font-weight="bold">Portfolio</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="517" y="389" font-size="11" fill="#3d444d">···························</text>
+<text x="852" y="389" font-size="11" fill="#e6edf3" text-anchor="end">tarekrahman.vercel.app</text>
+<text x="440" y="410" font-size="11"><tspan fill="#FF8C00" font-weight="bold">LinkedIn</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="510" y="410" font-size="11" fill="#3d444d">····································</text>
+<text x="852" y="410" font-size="11" fill="#e6edf3" text-anchor="end">iamtarekrahman</text>
+<text x="440" y="431" font-size="11"><tspan fill="#FF8C00" font-weight="bold">Email</tspan><tspan fill="#8b949e">:</tspan></text>
+<text x="490" y="431" font-size="11" fill="#3d444d">································</text>
+<text x="852" y="431" font-size="11" fill="#e6edf3" text-anchor="end">tarek737519@gmail.com</text>
+<text x="440" y="456" font-size="11" fill="#FF8C00" font-weight="bold">─ Live Stats</text>
+<line x1="532" y1="452.5" x2="852" y2="452.5" stroke="#FF8C00" stroke-width="1" opacity="0.7"/>
+<rect x="440" y="469" width="7" height="10" fill="#FF6B00"/>
+<text x="453" y="478" font-size="10.5" fill="#c9d1d9">See live GitHub stats badges below in README ↓</text>
+<clipPath id="term"><rect x="15" y="51" width="850" height="442" rx="10"/></clipPath>
+<g clip-path="url(#term)"><rect class="sl" x="15" y="51" width="850" height="26" fill="#FF6B00"/></g>
+<rect x="14" y="512" width="852" height="216" rx="12" fill="none" stroke="#FF6B00" stroke-width="4" opacity="0.18"/>
+<rect x="14" y="512" width="852" height="216" rx="12" fill="#0a0d13" stroke="#FF6B00" stroke-width="1.2"/>
+<rect x="53" y="532" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="53" y="558" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="53" y="584" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="53" y="610" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="53" y="636" width="20" height="20" rx="5" fill="#40c463"><animate attributeName="opacity" values="1;0.45;1" dur="2.4s" repeatCount="indefinite"/></rect>
+<rect x="53" y="662" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="53" y="688" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="79" y="532" width="20" height="20" rx="5" fill="#40c463"><animate attributeName="opacity" values="1;0.45;1" dur="1.9s" repeatCount="indefinite"/></rect>
+<rect x="79" y="558" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="79" y="584" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="79" y="610" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="79" y="636" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="79" y="662" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="79" y="688" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="105" y="532" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="105" y="558" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="105" y="584" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="105" y="610" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="105" y="636" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="105" y="662" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="105" y="688" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="131" y="532" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="131" y="558" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="131" y="584" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="131" y="610" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="131" y="636" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="131" y="662" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="131" y="688" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="157" y="532" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="157" y="558" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="157" y="584" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="157" y="610" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="157" y="636" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="157" y="662" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="157" y="688" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="183" y="532" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="183" y="558" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="183" y="584" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="183" y="610" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="183" y="636" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="183" y="662" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="183" y="688" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="209" y="532" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="209" y="558" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="209" y="584" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="209" y="610" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="209" y="636" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="209" y="662" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="209" y="688" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="235" y="532" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="235" y="558" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="235" y="584" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="235" y="610" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="235" y="636" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="235" y="662" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="235" y="688" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="261" y="532" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="261" y="558" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="261" y="584" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="261" y="610" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="261" y="636" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="261" y="662" width="20" height="20" rx="5" fill="#40c463"><animate attributeName="opacity" values="1;0.45;1" dur="2.8s" repeatCount="indefinite"/></rect>
+<rect x="261" y="688" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="287" y="532" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="287" y="558" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="287" y="584" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="287" y="610" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="287" y="636" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="287" y="662" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="287" y="688" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="313" y="532" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="313" y="558" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="313" y="584" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="313" y="610" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="313" y="636" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="313" y="662" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="313" y="688" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="339" y="532" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="339" y="558" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="339" y="584" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="339" y="610" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="339" y="636" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="339" y="662" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="339" y="688" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="365" y="532" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="365" y="558" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="365" y="584" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="365" y="610" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="365" y="636" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="365" y="662" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="365" y="688" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="391" y="532" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="391" y="558" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="391" y="584" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="391" y="610" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="391" y="636" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="391" y="662" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="391" y="688" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="417" y="532" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="417" y="558" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="417" y="584" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="417" y="610" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="417" y="636" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="417" y="662" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="417" y="688" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="443" y="532" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="443" y="558" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="443" y="584" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="443" y="610" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="443" y="636" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="443" y="662" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="443" y="688" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="469" y="532" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="469" y="558" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="469" y="584" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="469" y="610" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="469" y="636" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="469" y="662" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="469" y="688" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="495" y="532" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="495" y="558" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="495" y="584" width="20" height="20" rx="5" fill="#40c463"><animate attributeName="opacity" values="1;0.45;1" dur="2.9s" repeatCount="indefinite"/></rect>
+<rect x="495" y="610" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="495" y="636" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="495" y="662" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="495" y="688" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="521" y="532" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="521" y="558" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="521" y="584" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="521" y="610" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="521" y="636" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="521" y="662" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="521" y="688" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="547" y="532" width="20" height="20" rx="5" fill="#216e39"><animate attributeName="opacity" values="1;0.45;1" dur="2.4s" repeatCount="indefinite"/></rect>
+<rect x="547" y="558" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="547" y="584" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="547" y="610" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="547" y="636" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="547" y="662" width="20" height="20" rx="5" fill="#40c463"><animate attributeName="opacity" values="1;0.45;1" dur="2.7s" repeatCount="indefinite"/></rect>
+<rect x="547" y="688" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="573" y="532" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="573" y="558" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="573" y="584" width="20" height="20" rx="5" fill="#216e39"><animate attributeName="opacity" values="1;0.45;1" dur="1.9s" repeatCount="indefinite"/></rect>
+<rect x="573" y="610" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="573" y="636" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="573" y="662" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="573" y="688" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="599" y="532" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="599" y="558" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="599" y="584" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="599" y="610" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="599" y="636" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="599" y="662" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="599" y="688" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="625" y="532" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="625" y="558" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="625" y="584" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="625" y="610" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="625" y="636" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="625" y="662" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="625" y="688" width="20" height="20" rx="5" fill="#216e39"><animate attributeName="opacity" values="1;0.45;1" dur="1.9s" repeatCount="indefinite"/></rect>
+<rect x="651" y="532" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="651" y="558" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="651" y="584" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="651" y="610" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="651" y="636" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="651" y="662" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="651" y="688" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="677" y="532" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="677" y="558" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="677" y="584" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="677" y="610" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="677" y="636" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="677" y="662" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="677" y="688" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="703" y="532" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="703" y="558" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="703" y="584" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="703" y="610" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="703" y="636" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="703" y="662" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="703" y="688" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="729" y="532" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="729" y="558" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="729" y="584" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="729" y="610" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="729" y="636" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="729" y="662" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="729" y="688" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="755" y="532" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="755" y="558" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="755" y="584" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="755" y="610" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="755" y="636" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="755" y="662" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="755" y="688" width="20" height="20" rx="5" fill="#e6edf3"></rect>
+<rect x="781" y="532" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="781" y="558" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="781" y="584" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="781" y="610" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="781" y="636" width="20" height="20" rx="5" fill="#40c463"></rect>
+<rect x="781" y="662" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="781" y="688" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="807" y="532" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="807" y="558" width="20" height="20" rx="5" fill="#9be9a8"></rect>
+<rect x="807" y="584" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="807" y="610" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="807" y="636" width="20" height="20" rx="5" fill="#30a14e"></rect>
+<rect x="807" y="662" width="20" height="20" rx="5" fill="#216e39"></rect>
+<rect x="807" y="688" width="20" height="20" rx="5" fill="#40c463"></rect>
+<circle cx="739" cy="646" r="14" fill="none" stroke="#30a14e" stroke-width="2.5"/>
+<circle cx="531" cy="542" r="14" fill="none" stroke="#30a14e" stroke-width="2.5"/>
+<circle cx="323" cy="568" r="14" fill="none" stroke="#30a14e" stroke-width="2.5"/>
+<circle cx="89" cy="542" r="14" fill="none" stroke="#30a14e" stroke-width="2.5"/>
+<circle cx="375" cy="672" r="14" fill="none" stroke="#30a14e" stroke-width="2.5"/>
+<circle cx="141" cy="594" r="14" fill="none" stroke="#30a14e" stroke-width="2.5"/>
+<circle cx="120" cy="770" r="1.5" fill="white" opacity="0.5"/>
+<circle cx="300" cy="820" r="1" fill="white" opacity="0.4"/>
+<circle cx="520" cy="760" r="1" fill="white" opacity="0.5"/>
+<circle cx="700" cy="840" r="1.5" fill="white" opacity="0.35"/>
+<circle cx="820" cy="780" r="1" fill="white" opacity="0.6"/>
+<circle cx="200" cy="870" r="1" fill="white" opacity="0.4"/>
+<circle cx="430" cy="880" r="1.5" fill="white" opacity="0.3"/>
+<circle cx="620" cy="790" r="1" fill="white" opacity="0.5"/>
+<circle cx="60" cy="850" r="1" fill="white" opacity="0.45"/>
+<circle cx="760" cy="865" r="1" fill="white" opacity="0.4"/>
+<g transform="translate(190,810)"><g class="rk">
+<polygon points="0,-38 -13,10 13,10" fill="#e6edf3"/>
+<polygon points="0,-38 0,10 13,10" fill="#c9d1d9"/>
+<rect x="-13" y="10" width="26" height="26" rx="3" fill="#e6edf3"/>
+<rect x="0" y="10" width="13" height="26" rx="3" fill="#c9d1d9"/>
+<circle cx="0" cy="20" r="6.5" fill="#0d1117" stroke="#FF6B00" stroke-width="2"/>
+<polygon points="-13,26 -24,46 -13,40" fill="#FF6B00"/>
+<polygon points="13,26 24,46 13,40" fill="#FF8C00"/>
+<g transform="translate(0,40)">
+<ellipse class="fl" cx="0" cy="10" rx="7" ry="16" fill="#FF6B00" opacity="0.9"/>
+<ellipse class="fl" cx="0" cy="8" rx="4" ry="10" fill="#FFAA00"/>
 </g>
+<circle cx="0" cy="72" r="2" fill="#FF8C00" opacity="0.7"><animate attributeName="cy" values="72;95" dur="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="1s" repeatCount="indefinite"/></circle>
+<circle cx="-6" cy="66" r="1.5" fill="#FFAA00" opacity="0.6"><animate attributeName="cy" values="66;88" dur="1.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0" dur="1.3s" repeatCount="indefinite"/></circle>
+<circle cx="6" cy="69" r="1.5" fill="#FF6B00" opacity="0.6"><animate attributeName="cy" values="69;92" dur="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0" dur="0.8s" repeatCount="indefinite"/></circle>
+</g></g>
 </svg>
